@@ -3,73 +3,80 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Runtime.Remoting.Messaging;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BaiTap
 {
     public class QLSinhVien
     {
-        List<SinhVien> dssv = new List<SinhVien>();
+        private readonly List<SinhVien> dssv = new List<SinhVien>();
+
         public List<SinhVien> DocFile(string filename)
         {
+            var list = new List<SinhVien>();
 
-            List<SinhVien> List = new List<SinhVien>();
-            StreamReader sr = new StreamReader(filename);
-            string line;
-            while ((line = sr.ReadLine()) != null)
+            if (!File.Exists(filename))
+                return list;
+
+            try
             {
-                string[] parts = line.Split('|');
-                string mssv = parts[0];
-                string hotenlot = parts[1];
-                string ten = parts[2];
-                DateTime ngaysinh = DateTime.ParseExact(
-                        parts[3].Trim(),
-                        "dd/MM/yyyy",
-                        CultureInfo.InvariantCulture
-                    );
-                bool gioitinh = parts[4] == "1" ? true : false;
-                string lop = parts[5];
-                string cmnd = parts[6];
-                string sdt = parts[7];
-                string diachi = parts[8];
-                SinhVien sv = new SinhVien(mssv, hotenlot, ten, ngaysinh, gioitinh, lop, cmnd, sdt, diachi);
-                List.Add(sv);
-            }
-            sr.Close();
-            return List;
-        }
+                using (var sr = new StreamReader(filename))
+                {
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        if (string.IsNullOrWhiteSpace(line)) continue;
+                        var parts = line.Split('|');
+                        if (parts.Length < 9) continue; // bỏ dòng lỗi
 
+                        string mssv = parts[0].Trim();
+                        string hotenlot = parts[1].Trim();
+                        string ten = parts[2].Trim();
+                        if (!DateTime.TryParseExact(parts[3].Trim(), "dd/MM/yyyy",
+                                CultureInfo.InvariantCulture, DateTimeStyles.None, out var ngaysinh))
+                            continue;
+
+                        bool gioitinh = parts[4].Trim() == "1";
+                        string lop = parts[5].Trim();
+                        string cmnd = parts[6].Trim();
+                        string sdt = parts[7].Trim();
+                        string diachi = parts[8].Trim();
+
+                        var sv = new SinhVien(mssv, hotenlot, ten, ngaysinh, gioitinh, lop, cmnd, sdt, diachi);
+                        list.Add(sv);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi đọc file: " + ex.Message, "Thông báo");
+            }
+
+            return list;
+        }
 
         public void GhiFile(string filename, SinhVien sv)
         {
             string gioitinh = sv.GioiTinh ? "1" : "0";
             string line = $"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{gioitinh}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}";
-
-            // Ghi thêm 1 dòng mới vào cuối file
-            using (StreamWriter sw = new StreamWriter(filename, true))
+            try
             {
-                sw.WriteLine(line);   // <-- mỗi lần gọi sẽ tự xuống dòng
+                using (var sw = new StreamWriter(filename, append: true))
+                    sw.WriteLine(line);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi ghi file: " + ex.Message, "Thông báo");
             }
         }
 
         public void ThemSV(SinhVien sv) => dssv.Add(sv);
 
-        public void KiemTraTrungMSSV(string mssv)
+        // Trả về true nếu trùng
+        public bool KiemTraTrungMSSVTrongFile(string filename, string mssv)
         {
-            foreach (var sv in dssv)
-            {
-                if (sv.MSSV == mssv)
-                {
-                    MessageBox.Show("MSSV đã tồn tại!","Thông báo");
-                }
-            }
-            return;
+            return DocFile(filename).Any(s => s.MSSV.Equals(mssv, StringComparison.OrdinalIgnoreCase));
         }
-
-
 
         public bool CapNhatSV(string filename, SinhVien svMoi)
         {
@@ -79,66 +86,89 @@ namespace BaiTap
 
             list[idx] = svMoi;
 
-            using (var sw = new StreamWriter(filename, append: false)) // ghi đè toàn bộ
+            try
             {
-                foreach (var sv in list)
+                using (var sw = new StreamWriter(filename, append: false))
                 {
-                    string gioitinh = sv.GioiTinh ? "1" : "0";
-                    sw.WriteLine($"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{gioitinh}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}");
+                    foreach (var sv in list)
+                    {
+                        string gioitinh = sv.GioiTinh ? "1" : "0";
+                        sw.WriteLine($"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{gioitinh}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}");
+                    }
                 }
+                return true;
             }
-            return true;
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi cập nhật file: " + ex.Message, "Thông báo");
+                return false;
+            }
         }
 
         public bool XoaSV(string filename, string mssv)
         {
             var list = DocFile(filename);
-            int count = list.Count;
+            int countOld = list.Count;
 
-            list = list.Where(sv => !!sv.MSSV.Equals(mssv)).ToList();
-            if (list.Count == count)
-                return false;
+            // SỬA LỖI: điều kiện đúng là giữ lại những sv mà MSSV KHÁC mssv
+            list = list.Where(sv => !sv.MSSV.Equals(mssv, StringComparison.OrdinalIgnoreCase)).ToList();
 
-            using (StreamWriter sw = new StreamWriter(filename, false))
+            if (list.Count == countOld) return false;
+
+            try
             {
-                foreach (var sv in list)
+                using (var sw = new StreamWriter(filename, append: false))
                 {
-                    string gt = sv.GioiTinh ? "1" : "0";
-                    sw.WriteLine($"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{gt}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}");
+                    foreach (var sv in list)
+                    {
+                        string gt = sv.GioiTinh ? "1" : "0";
+                        sw.WriteLine($"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{gt}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}");
+                    }
                 }
+                return true;
             }
-            return true;
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi xoá file: " + ex.Message, "Thông báo");
+                return false;
+            }
         }
 
         public void XoaSV(string filename, List<string> listMSSV)
         {
             var newList = DocFile(filename)
-                .Where(sv => !listMSSV.Contains(sv.MSSV))   // lọc bỏ MSSV cần xoá
+                .Where(sv => !listMSSV.Contains(sv.MSSV, StringComparer.OrdinalIgnoreCase))
                 .ToList();
 
-            File.WriteAllLines(filename, newList.Select(sv =>
-                $"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{(sv.GioiTinh ? "1" : "0")}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}"
-            ));
-        }
-
-
-        public void LuuThuCong(string filename, List<SinhVien> dssv)
-        {
-            using (var sw = new StreamWriter(filename, false)) 
+            try
             {
-                foreach (var sv in dssv)
-                {
-                    string gt = sv.GioiTinh ? "1" : "0";
-                    sw.WriteLine($"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{gt}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}");
-                }
+                File.WriteAllLines(filename, newList.Select(sv =>
+                    $"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{(sv.GioiTinh ? "1" : "0")}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}"
+                ));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi xoá nhiều: " + ex.Message, "Thông báo");
             }
         }
 
-
-
-
-
-
-        //------------------------------------------------------
+        public void LuuThuCong(string filename, List<SinhVien> list)
+        {
+            try
+            {
+                using (var sw = new StreamWriter(filename, false))
+                {
+                    foreach (var sv in list)
+                    {
+                        string gt = sv.GioiTinh ? "1" : "0";
+                        sw.WriteLine($"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{gt}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi lưu: " + ex.Message, "Thông báo");
+            }
+        }
     }
 }

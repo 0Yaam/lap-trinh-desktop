@@ -1,0 +1,11 @@
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\bin\Debug\BaiTap.exe.config
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\bin\Debug\BaiTap.exe
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\bin\Debug\BaiTap.pdb
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\obj\Debug\BaiTap.csproj.AssemblyReference.cache
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\obj\Debug\BaiTap.Properties.Resources.resources
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\obj\Debug\BaiTap.csproj.GenerateResource.cache
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\obj\Debug\BaiTap.csproj.CoreCompileInputs.cache
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\obj\Debug\BaiTap.exe
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\obj\Debug\BaiTap.pdb
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\obj\Debug\BaiTap.exe.config
+C:\Users\TruongDan\Downloads\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\BaiTap\obj\Debug\BaiTap.frmMain.resources

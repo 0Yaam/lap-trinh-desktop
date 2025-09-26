@@ -1,0 +1,13 @@
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\bin\Debug\2312590_NNTDan_ChuDe03.exe.config
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\bin\Debug\2312590_NNTDan_ChuDe03.exe
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\bin\Debug\2312590_NNTDan_ChuDe03.pdb
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\obj\Debug\2312590_NNTDan_ChuDe03.csproj.AssemblyReference.cache
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\obj\Debug\_2312590_NNTDan_ChuDe03.Form1.resources
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\obj\Debug\_2312590_NNTDan_ChuDe03.Properties.Resources.resources
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\obj\Debug\2312590_NNTDan_ChuDe03.csproj.GenerateResource.cache
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\obj\Debug\2312590_NNTDan_ChuDe03.csproj.CoreCompileInputs.cache
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\obj\Debug\2312590_NNTDan_ChuDe03.csproj.CopyComplete
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\obj\Debug\2312590_NNTDan_ChuDe03.exe
+C:\Users\PC602\source\repos\2312590_NNTDan_ChuDe03\2312590_NNTDan_ChuDe03\obj\Debug\2312590_NNTDan_ChuDe03.pdb

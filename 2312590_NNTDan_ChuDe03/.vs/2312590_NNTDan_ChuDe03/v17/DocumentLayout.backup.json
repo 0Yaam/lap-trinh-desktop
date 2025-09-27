@@ -3,64 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\baitap\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|c:\\users\\truongdan\\downloads\\2312590_nntdan_chude03\\2312590_nntdan_chude03\\baitap\\form\\frmtimkiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmtimkiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|c:\\users\\truongdan\\downloads\\2312590_nntdan_chude03\\2312590_nntdan_chude03\\baitap\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\baitap\\services\\qlsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\services\\qlsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\danhsach.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiTap\\bin\\Debug\\danhsach.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\baitap\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\baitap\\form\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\baitap\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\baitap\\services\\qlsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\services\\qlsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\baitap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\dangky.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiTap\\bin\\Debug\\dangky.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A55A98C-BDCF-4804-964F-67408C6CBCA8}|XMLReader\\XMLReader.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\xmlreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A55A98C-BDCF-4804-964F-67408C6CBCA8}|XMLReader\\XMLReader.csproj|solutionrelative:xmlreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\monhoc.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiTap\\bin\\Debug\\monhoc.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\danhsach.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiTap\\bin\\Debug\\danhsach.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|c:\\users\\truongdan\\downloads\\2312590_nntdan_chude03\\2312590_nntdan_chude03\\baitap\\form\\frmtimkiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmtimkiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\baitap\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|c:\\users\\truongdan\\downloads\\2312590_nntdan_chude03\\2312590_nntdan_chude03\\baitap\\form\\frmthemmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmthemmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A55A98C-BDCF-4804-964F-67408C6CBCA8}|XMLReader\\XMLReader.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\xmlreader\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A55A98C-BDCF-4804-964F-67408C6CBCA8}|XMLReader\\XMLReader.csproj|solutionrelative:xmlreader\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|c:\\users\\truongdan\\downloads\\2312590_nntdan_chude03\\2312590_nntdan_chude03\\baitap\\form\\frmtimkiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmtimkiem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_nntdan_chude03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|solutionrelative:2312590_nntdan_chude03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|c:\\users\\truongdan\\downloads\\2312590_nntdan_chude03\\2312590_nntdan_chude03\\baitap\\form\\frmthemmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmthemmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_nntdan_chude03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|solutionrelative:2312590_nntdan_chude03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|c:\\users\\truongdan\\downloads\\2312590_nntdan_chude03\\2312590_nntdan_chude03\\baitap\\form\\frmthemmon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\form\\frmthemmon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_nntdan_chude03\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|solutionrelative:2312590_nntdan_chude03\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\students.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiTap\\bin\\Debug\\students.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_nntdan_chude03\\students.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|solutionrelative:2312590_nntdan_chude03\\students.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\studens.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiTap\\bin\\Debug\\studens.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_nntdan_chude03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7793D69A-2B3E-4B88-B2A6-E646090DD196}|2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03.csproj|solutionrelative:2312590_nntdan_chude03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|c:\\users\\truongdan\\downloads\\2312590_nntdan_chude03\\2312590_nntdan_chude03\\baitap\\services\\docghids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D00E7A6-DCFD-46D8-B860-B844F9704C87}|BaiTap\\BaiTap.csproj|solutionrelative:baitap\\services\\docghids.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +82,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmTimKiem.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmTimKiem.Designer.cs",
+              "RelativeDocumentMoniker": "BaiTap\\Form\\frmTimKiem.Designer.cs",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmTimKiem.Designer.cs",
+              "RelativeToolTip": "BaiTap\\Form\\frmTimKiem.Designer.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAwKYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T01:33:26.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmTimKiem.cs",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmTimKiem.cs",
+              "RelativeDocumentMoniker": "BaiTap\\Form\\frmTimKiem.cs",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmTimKiem.cs",
+              "RelativeToolTip": "BaiTap\\Form\\frmTimKiem.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAD4v10AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T01:28:12.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmTimKiem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmTimKiem.cs",
+              "RelativeDocumentMoniker": "BaiTap\\Form\\frmTimKiem.cs",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmTimKiem.cs [Design]",
+              "RelativeToolTip": "BaiTap\\Form\\frmTimKiem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T01:16:50.837Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmMain.cs",
               "RelativeDocumentMoniker": "BaiTap\\Form\\frmMain.cs",
@@ -90,172 +132,158 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "danhsach.txt",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\danhsach.txt",
+              "RelativeDocumentMoniker": "BaiTap\\bin\\Debug\\danhsach.txt",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\danhsach.txt",
+              "RelativeToolTip": "BaiTap\\bin\\Debug\\danhsach.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-27T03:10:33.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "frmMain.cs",
               "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmMain.cs",
               "RelativeDocumentMoniker": "BaiTap\\Form\\frmMain.cs",
               "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmMain.cs",
               "RelativeToolTip": "BaiTap\\Form\\frmMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAswAgBAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T09:17:29.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "monhoc.txt",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\monhoc.txt",
+              "RelativeDocumentMoniker": "BaiTap\\bin\\Debug\\monhoc.txt",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\monhoc.txt",
+              "RelativeToolTip": "BaiTap\\bin\\Debug\\monhoc.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-27T02:45:32.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dangky.txt",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\dangky.txt",
+              "RelativeDocumentMoniker": "BaiTap\\bin\\Debug\\dangky.txt",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\dangky.txt",
+              "RelativeToolTip": "BaiTap\\bin\\Debug\\dangky.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-27T02:53:16.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "QLSinhVien.cs",
               "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Services\\QLSinhVien.cs",
               "RelativeDocumentMoniker": "BaiTap\\Services\\QLSinhVien.cs",
               "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Services\\QLSinhVien.cs",
               "RelativeToolTip": "BaiTap\\Services\\QLSinhVien.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAUwK4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAEwGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T08:43:36.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmMain.Designer.cs",
               "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmMain.Designer.cs",
               "RelativeDocumentMoniker": "BaiTap\\Form\\frmMain.Designer.cs",
               "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmMain.Designer.cs",
               "RelativeToolTip": "BaiTap\\Form\\frmMain.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAIMBAAAAAAAAAAAAwJcBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T06:56:05.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SinhVien.cs",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Models\\SinhVien.cs",
-              "RelativeDocumentMoniker": "BaiTap\\Models\\SinhVien.cs",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Models\\SinhVien.cs",
-              "RelativeToolTip": "BaiTap\\Models\\SinhVien.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T13:21:23.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "danhsach.txt",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\danhsach.txt",
-              "RelativeDocumentMoniker": "BaiTap\\bin\\Debug\\danhsach.txt",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\danhsach.txt",
-              "RelativeToolTip": "BaiTap\\bin\\Debug\\danhsach.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-25T09:23:39.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\XMLReader\\Program.cs",
-              "RelativeDocumentMoniker": "XMLReader\\Program.cs",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\XMLReader\\Program.cs",
-              "RelativeToolTip": "XMLReader\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T08:47:14.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Program.cs",
-              "RelativeDocumentMoniker": "BaiTap\\Program.cs",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Program.cs",
-              "RelativeToolTip": "BaiTap\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:17:18.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\App.config",
-              "RelativeDocumentMoniker": "BaiTap\\App.config",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\App.config",
-              "RelativeToolTip": "BaiTap\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-25T09:24:52.831Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\XMLReader\\Form1.cs",
-              "RelativeDocumentMoniker": "XMLReader\\Form1.cs",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\XMLReader\\Form1.cs [Design]",
-              "RelativeToolTip": "XMLReader\\Form1.cs [Design]",
+              "Title": "frmThemMon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmThemMon.cs",
+              "RelativeDocumentMoniker": "BaiTap\\Form\\frmThemMon.cs",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmThemMon.cs [Design]",
+              "RelativeToolTip": "BaiTap\\Form\\frmThemMon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:43:36.848Z"
+              "WhenOpened": "2025-09-27T03:50:57.863Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmThemMon.cs",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmThemMon.cs",
+              "RelativeDocumentMoniker": "BaiTap\\Form\\frmThemMon.cs",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmThemMon.cs",
+              "RelativeToolTip": "BaiTap\\Form\\frmThemMon.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T03:55:36.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmThemMon.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmThemMon.Designer.cs",
+              "RelativeDocumentMoniker": "BaiTap\\Form\\frmThemMon.Designer.cs",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Form\\frmThemMon.Designer.cs",
+              "RelativeToolTip": "BaiTap\\Form\\frmThemMon.Designer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T03:56:46.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DocGhiDS.cs",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Services\\DocGhiDS.cs",
+              "RelativeDocumentMoniker": "BaiTap\\Services\\DocGhiDS.cs",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\Services\\DocGhiDS.cs",
+              "RelativeToolTip": "BaiTap\\Services\\DocGhiDS.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAxwLYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T03:39:51.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "students.json",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\students.json",
-              "RelativeDocumentMoniker": "2312590_NNTDan_ChuDe03\\students.json",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\students.json",
-              "RelativeToolTip": "2312590_NNTDan_ChuDe03\\students.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\students.json",
+              "RelativeDocumentMoniker": "BaiTap\\bin\\Debug\\students.json",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\students.json",
+              "RelativeToolTip": "BaiTap\\bin\\Debug\\students.json",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-25T08:43:36.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SinhVien.cs",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\SinhVien.cs",
-              "RelativeDocumentMoniker": "2312590_NNTDan_ChuDe03\\SinhVien.cs",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\SinhVien.cs",
-              "RelativeToolTip": "2312590_NNTDan_ChuDe03\\SinhVien.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:43:36.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\Form1.cs",
-              "RelativeDocumentMoniker": "2312590_NNTDan_ChuDe03\\Form1.cs",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\Form1.cs [Design]",
-              "RelativeToolTip": "2312590_NNTDan_ChuDe03\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:43:36.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\Form1.cs",
-              "RelativeDocumentMoniker": "2312590_NNTDan_ChuDe03\\Form1.cs",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\Form1.cs",
-              "RelativeToolTip": "2312590_NNTDan_ChuDe03\\Form1.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA9wC4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:43:36.854Z"
+              "WhenOpened": "2025-09-27T03:44:50.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\Program.cs",
-              "RelativeDocumentMoniker": "2312590_NNTDan_ChuDe03\\Program.cs",
-              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\Program.cs",
-              "RelativeToolTip": "2312590_NNTDan_ChuDe03\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:43:36.854Z"
+              "Title": "studens.txt",
+              "DocumentMoniker": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\studens.txt",
+              "RelativeDocumentMoniker": "BaiTap\\bin\\Debug\\studens.txt",
+              "ToolTip": "C:\\Users\\TruongDan\\Downloads\\2312590_NNTDan_ChuDe03\\2312590_NNTDan_ChuDe03\\BaiTap\\bin\\Debug\\studens.txt",
+              "RelativeToolTip": "BaiTap\\bin\\Debug\\studens.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-27T03:44:16.427Z",
+              "EditorCaption": ""
             }
           ]
         }

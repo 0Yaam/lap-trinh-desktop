@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtMSSV = new System.Windows.Forms.TextBox();
             this.txtHoVaTenLot = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -60,22 +59,24 @@
             this.SDT = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.DiaChi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.cmsCapNhat = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsXoa = new System.Windows.Forms.ToolStripMenuItem();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.mtxtCMND = new System.Windows.Forms.MaskedTextBox();
             this.mtxtSDT = new System.Windows.Forms.MaskedTextBox();
             this.clbMonHoc = new System.Windows.Forms.CheckedListBox();
             this.cbbLop = new System.Windows.Forms.ComboBox();
-            this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.cbbLocTheoLop = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rdMSSV = new System.Windows.Forms.RadioButton();
-            this.rdTen = new System.Windows.Forms.RadioButton();
+            this.btnTimKiem = new System.Windows.Forms.Button();
+            this.txtMSSV = new System.Windows.Forms.MaskedTextBox();
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mnuXoaMon = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuThemMon = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnXuatFile = new System.Windows.Forms.Button();
+            this.btnNhapFile = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.contextMenuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -86,13 +87,6 @@
             this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "MSSV:";
-            // 
-            // txtMSSV
-            // 
-            this.txtMSSV.Location = new System.Drawing.Point(151, 21);
-            this.txtMSSV.Name = "txtMSSV";
-            this.txtMSSV.Size = new System.Drawing.Size(180, 20);
-            this.txtMSSV.TabIndex = 1;
             // 
             // txtHoVaTenLot
             // 
@@ -260,6 +254,7 @@
             // 
             // lvDanhSach
             // 
+            this.lvDanhSach.CheckBoxes = true;
             this.lvDanhSach.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.MSSV,
             this.HoTenLot,
@@ -280,11 +275,11 @@
             this.lvDanhSach.TabIndex = 0;
             this.lvDanhSach.UseCompatibleStateImageBehavior = false;
             this.lvDanhSach.View = System.Windows.Forms.View.Details;
-            this.lvDanhSach.SelectedIndexChanged += new System.EventHandler(this.lvDanhSach_SelectedIndexChanged_1);
             // 
             // MSSV
             // 
             this.MSSV.Text = "MSSV";
+            this.MSSV.Width = 90;
             // 
             // HoTenLot
             // 
@@ -294,11 +289,12 @@
             // Ten
             // 
             this.Ten.Text = "Tên";
+            this.Ten.Width = 70;
             // 
             // NgaySinh
             // 
             this.NgaySinh.Text = "Ngày sinh";
-            this.NgaySinh.Width = 95;
+            this.NgaySinh.Width = 90;
             // 
             // GioiTinh
             // 
@@ -307,33 +303,29 @@
             // Lop
             // 
             this.Lop.Text = "Lớp";
+            this.Lop.Width = 70;
             // 
             // CMND
             // 
             this.CMND.Text = "CMND";
+            this.CMND.Width = 90;
             // 
             // SDT
             // 
             this.SDT.Text = "SDT";
+            this.SDT.Width = 90;
             // 
             // DiaChi
             // 
             this.DiaChi.Text = "Địa chỉ";
+            this.DiaChi.Width = 142;
             // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cmsCapNhat,
             this.cmsXoa});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(123, 48);
-            // 
-            // cmsCapNhat
-            // 
-            this.cmsCapNhat.Name = "cmsCapNhat";
-            this.cmsCapNhat.Size = new System.Drawing.Size(122, 22);
-            this.cmsCapNhat.Text = "Cập nhật";
-            this.cmsCapNhat.Click += new System.EventHandler(this.cmsCapNhat_Click);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(95, 26);
             // 
             // cmsXoa
             // 
@@ -353,7 +345,7 @@
             // mtxtCMND
             // 
             this.mtxtCMND.Location = new System.Drawing.Point(151, 124);
-            this.mtxtCMND.Mask = "000000000000";
+            this.mtxtCMND.Mask = "000000000";
             this.mtxtCMND.Name = "mtxtCMND";
             this.mtxtCMND.Size = new System.Drawing.Size(180, 20);
             this.mtxtCMND.TabIndex = 28;
@@ -361,15 +353,17 @@
             // mtxtSDT
             // 
             this.mtxtSDT.Location = new System.Drawing.Point(550, 124);
-            this.mtxtSDT.Mask = "000.000.000";
+            this.mtxtSDT.Mask = "0000000000";
             this.mtxtSDT.Name = "mtxtSDT";
             this.mtxtSDT.Size = new System.Drawing.Size(180, 20);
             this.mtxtSDT.TabIndex = 29;
             // 
             // clbMonHoc
             // 
-            this.clbMonHoc.ColumnWidth = 100;
+            this.clbMonHoc.ColumnWidth = 200;
+            this.clbMonHoc.ContextMenuStrip = this.contextMenuStrip2;
             this.clbMonHoc.FormattingEnabled = true;
+            this.clbMonHoc.HorizontalScrollbar = true;
             this.clbMonHoc.Items.AddRange(new object[] {
             "Mạng máy tính",
             "Hệ điều hành",
@@ -379,9 +373,10 @@
             "Phương pháp NCKH",
             "Lập trình trên thiết bị di động",
             "An toàn va bảo mật hệ thống"});
-            this.clbMonHoc.Location = new System.Drawing.Point(151, 213);
+            this.clbMonHoc.Location = new System.Drawing.Point(151, 183);
+            this.clbMonHoc.MultiColumn = true;
             this.clbMonHoc.Name = "clbMonHoc";
-            this.clbMonHoc.Size = new System.Drawing.Size(579, 64);
+            this.clbMonHoc.Size = new System.Drawing.Size(579, 109);
             this.clbMonHoc.TabIndex = 30;
             // 
             // cbbLop
@@ -397,13 +392,6 @@
             this.cbbLop.Size = new System.Drawing.Size(180, 21);
             this.cbbLop.TabIndex = 31;
             // 
-            // txtTimKiem
-            // 
-            this.txtTimKiem.Location = new System.Drawing.Point(307, 309);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(173, 20);
-            this.txtTimKiem.TabIndex = 33;
-            // 
             // cbbLocTheoLop
             // 
             this.cbbLocTheoLop.FormattingEnabled = true;
@@ -417,7 +405,6 @@
             this.cbbLocTheoLop.Name = "cbbLocTheoLop";
             this.cbbLocTheoLop.Size = new System.Drawing.Size(88, 21);
             this.cbbLocTheoLop.TabIndex = 37;
-            this.cbbLocTheoLop.SelectedIndexChanged += new System.EventHandler(this.cbbLocTheoLop_SelectedIndexChanged);
             // 
             // label11
             // 
@@ -428,48 +415,78 @@
             this.label11.TabIndex = 38;
             this.label11.Text = "Lớp";
             // 
-            // groupBox2
+            // btnTimKiem
             // 
-            this.groupBox2.Controls.Add(this.rdMSSV);
-            this.groupBox2.Controls.Add(this.rdTen);
-            this.groupBox2.Location = new System.Drawing.Point(158, 296);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(142, 43);
-            this.groupBox2.TabIndex = 39;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Tìm theo";
+            this.btnTimKiem.Location = new System.Drawing.Point(394, 310);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(75, 23);
+            this.btnTimKiem.TabIndex = 40;
+            this.btnTimKiem.Text = "Tìm kiếm";
+            this.btnTimKiem.UseVisualStyleBackColor = true;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
-            // rdMSSV
+            // txtMSSV
             // 
-            this.rdMSSV.AutoSize = true;
-            this.rdMSSV.Checked = true;
-            this.rdMSSV.Location = new System.Drawing.Point(85, 16);
-            this.rdMSSV.Name = "rdMSSV";
-            this.rdMSSV.Size = new System.Drawing.Size(55, 17);
-            this.rdMSSV.TabIndex = 38;
-            this.rdMSSV.TabStop = true;
-            this.rdMSSV.Text = "MSSV";
-            this.rdMSSV.UseVisualStyleBackColor = true;
+            this.txtMSSV.Location = new System.Drawing.Point(151, 21);
+            this.txtMSSV.Mask = "0000000";
+            this.txtMSSV.Name = "txtMSSV";
+            this.txtMSSV.Size = new System.Drawing.Size(180, 20);
+            this.txtMSSV.TabIndex = 41;
+            this.txtMSSV.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtMSSV_MaskInputRejected);
             // 
-            // rdTen
+            // contextMenuStrip2
             // 
-            this.rdTen.AutoSize = true;
-            this.rdTen.Location = new System.Drawing.Point(22, 16);
-            this.rdTen.Name = "rdTen";
-            this.rdTen.Size = new System.Drawing.Size(44, 17);
-            this.rdTen.TabIndex = 37;
-            this.rdTen.Text = "Tên";
-            this.rdTen.UseVisualStyleBackColor = true;
+            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuXoaMon,
+            this.mnuThemMon});
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            this.contextMenuStrip2.Size = new System.Drawing.Size(133, 48);
+            // 
+            // mnuXoaMon
+            // 
+            this.mnuXoaMon.Name = "mnuXoaMon";
+            this.mnuXoaMon.Size = new System.Drawing.Size(132, 22);
+            this.mnuXoaMon.Text = "Xóa";
+            this.mnuXoaMon.Click += new System.EventHandler(this.mnuXoaMon_Click);
+            // 
+            // mnuThemMon
+            // 
+            this.mnuThemMon.Name = "mnuThemMon";
+            this.mnuThemMon.Size = new System.Drawing.Size(180, 22);
+            this.mnuThemMon.Text = "Thêm môn";
+            this.mnuThemMon.Click += new System.EventHandler(this.mnuThemMon_Click);
+            // 
+            // btnXuatFile
+            // 
+            this.btnXuatFile.Location = new System.Drawing.Point(177, 310);
+            this.btnXuatFile.Name = "btnXuatFile";
+            this.btnXuatFile.Size = new System.Drawing.Size(75, 23);
+            this.btnXuatFile.TabIndex = 43;
+            this.btnXuatFile.Text = "Xuất file";
+            this.btnXuatFile.UseVisualStyleBackColor = true;
+            this.btnXuatFile.Click += new System.EventHandler(this.btnXuatFile_Click);
+            // 
+            // btnNhapFile
+            // 
+            this.btnNhapFile.Location = new System.Drawing.Point(272, 310);
+            this.btnNhapFile.Name = "btnNhapFile";
+            this.btnNhapFile.Size = new System.Drawing.Size(75, 23);
+            this.btnNhapFile.TabIndex = 44;
+            this.btnNhapFile.Text = "Nhập file";
+            this.btnNhapFile.UseVisualStyleBackColor = true;
+            this.btnNhapFile.Click += new System.EventHandler(this.btnNhapFile_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 559);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.btnNhapFile);
+            this.Controls.Add(this.btnXuatFile);
+            this.Controls.Add(this.txtMSSV);
+            this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.cbbLocTheoLop);
-            this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.cbbLop);
             this.Controls.Add(this.clbMonHoc);
             this.Controls.Add(this.mtxtSDT);
@@ -493,16 +510,13 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtHoVaTenLot);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtMSSV);
             this.Controls.Add(this.label1);
             this.Name = "frmMain";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.frmMain_Load);
             this.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.frmMain_MouseDoubleClick);
             this.groupBox1.ResumeLayout(false);
             this.contextMenuStrip1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.contextMenuStrip2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -511,7 +525,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtMSSV;
         private System.Windows.Forms.TextBox txtHoVaTenLot;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -536,9 +549,7 @@
         private System.Windows.Forms.CheckedListBox clbMonHoc;
         private System.Windows.Forms.ComboBox cbbLop;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem cmsCapNhat;
         private System.Windows.Forms.ToolStripMenuItem cmsXoa;
-        private System.Windows.Forms.TextBox txtTimKiem;
         private System.Windows.Forms.ComboBox cbbLocTheoLop;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ListView lvDanhSach;
@@ -551,9 +562,13 @@
         private System.Windows.Forms.ColumnHeader CMND;
         private System.Windows.Forms.ColumnHeader SDT;
         private System.Windows.Forms.ColumnHeader DiaChi;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton rdMSSV;
-        private System.Windows.Forms.RadioButton rdTen;
+        private System.Windows.Forms.Button btnTimKiem;
+        private System.Windows.Forms.MaskedTextBox txtMSSV;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem mnuXoaMon;
+        private System.Windows.Forms.ToolStripMenuItem mnuThemMon;
+        private System.Windows.Forms.Button btnXuatFile;
+        private System.Windows.Forms.Button btnNhapFile;
     }
 }
 

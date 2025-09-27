@@ -86,8 +86,6 @@ namespace BaiTap
 
             list[idx] = svMoi;
 
-            try
-            {
                 using (var sw = new StreamWriter(filename, append: false))
                 {
                     foreach (var sv in list)
@@ -97,12 +95,6 @@ namespace BaiTap
                     }
                 }
                 return true;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi cập nhật file: " + ex.Message, "Thông báo");
-                return false;
-            }
         }
 
         public bool XoaSV(string filename, string mssv)

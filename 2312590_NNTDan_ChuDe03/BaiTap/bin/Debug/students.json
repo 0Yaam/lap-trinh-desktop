@@ -1,0 +1,74 @@
+[
+  {
+    "MSSV": "0000003",
+    "HoTenLot": "Tr\u1EA7n Th\u1ECB",
+    "Ten": "Mai",
+    "NgaySinh": "2001-08-15T00:00:00",
+    "GioiTinh": false,
+    "Lop": "CTK47",
+    "CMND": "987654321",
+    "SDT": "0123456789",
+    "DiaChi": "Ha Noi",
+    "GioiTinhText": "N\u1EEF"
+  },
+  {
+    "MSSV": "0000004",
+    "HoTenLot": "L\u00EA Ho\u00E0ng",
+    "Ten": "Nam",
+    "NgaySinh": "1999-01-01T00:00:00",
+    "GioiTinh": true,
+    "Lop": "CTK48",
+    "CMND": "123123123",
+    "SDT": "0987654321",
+    "DiaChi": "Da Nang",
+    "GioiTinhText": "Nam"
+  },
+  {
+    "MSSV": "0000005",
+    "HoTenLot": "Ph\u1EA1m Ng\u1ECDc",
+    "Ten": "Anh",
+    "NgaySinh": "2000-12-12T00:00:00",
+    "GioiTinh": false,
+    "Lop": "CTK45",
+    "CMND": "456456456",
+    "SDT": "0909090909",
+    "DiaChi": "Can Tho",
+    "GioiTinhText": "N\u1EEF"
+  },
+  {
+    "MSSV": "0000006",
+    "HoTenLot": "Ho\u00E0ng V\u0103n",
+    "Ten": "Tu\u1EA5n",
+    "NgaySinh": "2002-04-30T00:00:00",
+    "GioiTinh": true,
+    "Lop": "CTK46",
+    "CMND": "789789789",
+    "SDT": "0911222333",
+    "DiaChi": "Binh Duong",
+    "GioiTinhText": "Nam"
+  },
+  {
+    "MSSV": "0000007",
+    "HoTenLot": "Nguy\u1EC5n Th\u1ECB",
+    "Ten": "H\u1ED3ng",
+    "NgaySinh": "2001-07-22T00:00:00",
+    "GioiTinh": false,
+    "Lop": "CTK47",
+    "CMND": "321321321",
+    "SDT": "0944556677",
+    "DiaChi": "Hue",
+    "GioiTinhText": "N\u1EEF"
+  },
+  {
+    "MSSV": "0000001",
+    "HoTenLot": "Nguy\u1EC5n V\u0103n",
+    "Ten": "A",
+    "NgaySinh": "2000-09-27T00:00:00",
+    "GioiTinh": true,
+    "Lop": "CTK45",
+    "CMND": "343434234",
+    "SDT": "3432112323",
+    "DiaChi": "Hai Phong",
+    "GioiTinhText": "Nam"
+  }
+]

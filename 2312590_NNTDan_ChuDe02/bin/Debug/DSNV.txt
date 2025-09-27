@@ -1,0 +1,5 @@
+231101|Nguyễn Văn A|True|0912345678|123 Đường ABC|nva@gmail.com|CTK43|SinhVien1.png|1/1/2005 12:00:00 AM
+231102|Trần Thị B|False|0987654321|456 Đường XYZ|ttb@gmail.com|CTK43|SinhVien2.png|2/2/2005 12:00:00 AM
+231103|Lê Văn An|True|0901.122.334|789 Đường DEF|lvc@gmail.com|CTK45|SinhVien3.png|8/19/2025 5:44:30 PM
+231104|Phạm Thị D|False|0902233445|101 Đường GHI|ptd@gmail.com|CTK43|SinhVien4.png|4/4/2005 12:00:00 AM
+231105|Vũ Văn E|True|0903344556|202 Đường JKL|vve@gmail.com|CTK44|SinhVien5.png|5/5/2005 12:00:00 AM

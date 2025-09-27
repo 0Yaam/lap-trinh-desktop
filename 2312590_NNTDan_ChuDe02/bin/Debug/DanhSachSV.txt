@@ -1,0 +1,5 @@
+﻿SV.00002, Nguyen van a,10/15/2003,Da lat,ctk47,SinhVien1.png,1,Mang truyen thong|cong nghe phan mem
+SV.00010, Nguyen Thi Hoa,7/20/2002,Ha Noi,ctk47,SinhVien2.png,0,Cong nghe phan mem|tri tue nhan tao|He thong thong tin
+SV.00020, Nguyen Van Hung,8/25/2003,Gia Lai,ctk47,SinhVien3.png,1,Mang truyen thong|tri tue nhan tao|He thong thong tin
+SV.00018, Le Thi Anh Thu,11/20/2001,Da Lat,ctk47,SinhVien4.png,0,Cong nghe phan mem|tri tue nhan tao|He thong thong tin
+SV.00013, Hoang Lam Vi,9/20/2003,Binh Dinh,ctk47,SinhVien5.png,0,Mang truyen thong|Tri tue nhan tao|He thong thong tin

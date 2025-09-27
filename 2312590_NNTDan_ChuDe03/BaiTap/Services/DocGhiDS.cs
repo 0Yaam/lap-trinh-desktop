@@ -32,7 +32,6 @@ namespace BaiTap.Services
         }
     }
 
-    // ---------------- TXT ----------------
     public class DocGhiTxt : IDocGhi
     {
         private const string DateFmt = "dd/MM/yyyy";
@@ -105,7 +104,6 @@ namespace BaiTap.Services
         }
     }
 
-    // ---------------- XML ----------------
     [XmlRoot("Students")]
     public class StudentsWrapper
     {
@@ -149,7 +147,6 @@ namespace BaiTap.Services
         }
     }
 
-    // ---------------- JSON (System.Text.Json) ----------------
     public class DocGhiJson : IDocGhi
     {
         private static readonly JsonSerializerOptions _opts = new JsonSerializerOptions

@@ -72,7 +72,6 @@ namespace BaiTap
 
         public void ThemSV(SinhVien sv) => dssv.Add(sv);
 
-        // Trả về true nếu trùng
         public bool KiemTraTrungMSSVTrongFile(string filename, string mssv)
         {
             return DocFile(filename).Any(s => s.MSSV.Equals(mssv, StringComparison.OrdinalIgnoreCase));
@@ -102,7 +101,6 @@ namespace BaiTap
             var list = DocFile(filename);
             int countOld = list.Count;
 
-            // SỬA LỖI: điều kiện đúng là giữ lại những sv mà MSSV KHÁC mssv
             list = list.Where(sv => !sv.MSSV.Equals(mssv, StringComparison.OrdinalIgnoreCase)).ToList();
 
             if (list.Count == countOld) return false;
@@ -146,8 +144,6 @@ namespace BaiTap
 
         public void LuuThuCong(string filename, List<SinhVien> list)
         {
-            try
-            {
                 using (var sw = new StreamWriter(filename, false))
                 {
                     foreach (var sv in list)
@@ -156,11 +152,6 @@ namespace BaiTap
                         sw.WriteLine($"{sv.MSSV}|{sv.HoTenLot}|{sv.Ten}|{sv.NgaySinh:dd/MM/yyyy}|{gt}|{sv.Lop}|{sv.CMND}|{sv.SDT}|{sv.DiaChi}");
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi lưu: " + ex.Message, "Thông báo");
-            }
         }
     }
 }

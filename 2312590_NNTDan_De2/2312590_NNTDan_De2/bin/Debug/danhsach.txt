@@ -1,0 +1,3 @@
+0000003|Trần Thị Mai|Ha Noi|987654321|Nha cung cap sua
+0000004|Lê Hoàng Nam|Da Nang|0987654321|Nha cung cap giay
+000004|Nguyễn Hiếu Nghĩa|Dong Nai|5454545545|Nha Cung cap dien thoai
